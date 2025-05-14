@@ -1,0 +1,170 @@
+@import url("https://www.dafont.com/pt/minecraft.dafont");
+
+body{
+  margin: 0;
+  border: 0;
+  background-color: black;
+  height: 56vw;
+}
+
+/*====================FUNDO====================*/
+
+#folhas-pedras{
+  background: url('imagens-cadastro-login/folhas-pedras.png');
+  min-height: 56vw;
+  background-size: cover;
+  position: relative;
+  z-index: 99;
+}
+
+#fundo-login-cadastro{
+  background: url('imagens-cadastro-login/fundo-login-cadastro.jpg');
+  min-height: 56vw;
+  position: relative;
+  background-size: cover;
+  z-index: 96;
+  transform: translateY(-56vw);
+}
+
+/*==========================FLORES CEREJEIRA===========================*/
+
+.container-flores-cerejeira{
+  height: 58vw;
+  background-size: cover;
+  position: relative;
+  z-index: 98;
+  transform: translateY(-158vw) translateX(-11vw);
+  pointer-events: none;
+  width: 109vw;
+  overflow: hidden;
+}
+
+.caimento{
+  display: flex;
+  flex-wrap: wrap;
+  transform: translateX(-0.4vw);
+  position: relative;
+  z-index: 98;
+  pointer-events: none;
+}
+
+.caimento span{
+  animation: animar calc(700s / var(--i)) linear infinite;
+}
+
+@keyframes animar{
+  0%{
+    transform: translateY(5vw) scale(1);
+
+  }
+  100%{
+    transform: translateY(65vw) scale(1);
+  }
+}
+
+#flor-cerejeira{
+  width: 1.5vw;
+}
+
+/*====================LOGIN====================*/
+
+#caixa-login{
+  background-color:black;
+  position: relative;
+  transform: translateY(-93.2vw) translateX(32.4vw);
+  border-radius: 8%;
+  z-index: 150;
+  opacity: 50%;
+  height: 25vw;
+  width: 30vw;
+}
+
+
+#login{
+  transform: translateY(-113.2vw) translateX(37.3vw);
+  position: relative; 
+  z-index: 151;
+  width: 20.4vw;
+}
+
+#k-info-logo{
+  z-index: 151;
+  width: 15vw;
+  align-items: center;
+  transform: translateY(-3.1vw) translateX(2.3vw);
+}
+
+h1{
+  font-size:1vw ;
+  color: white;
+  font-family: minecraft;
+  transform: translateX(6.7vw)
+}
+
+input{
+  color: white;
+} 
+
+#email{
+  font-family: minecraft;
+  background-color:#E53939;
+  width: 20vw;
+  height: 2vw;
+  border-radius: 12vw;
+  position: relative;
+  border: 0;
+  opacity: 80%;
+}
+
+#senha{
+  font-family: minecraft;
+  background-color:#E53939;
+  width: 20vw;
+  height: 2vw;
+  border-radius: 12vw;
+  position: relative;
+  border: 0;
+  opacity: 80%;
+}
+
+#criar-conta{
+  font-family: minecraft;
+  font-size:0.6vw;
+  position: relative; 
+  z-index: 151;
+  transform: translateY(0.5vw) translateX(7vw);
+}
+
+#cor{
+  color: white;
+}
+
+input::placeholder{
+  color: white;
+  transform: translateX(0.5vw);
+}
+
+input:hover{
+  transform: scale(1.1);
+}
+
+#botao{
+  font-family: minecraft;
+  font-size: 1vw;
+  color: white;
+  background-color:#E53939;
+  width: 20vw;
+  height: 2vw;
+  border-radius: 12vw;
+  border: 0;
+  cursor:pointer;
+  animation: both;
+}
+
+#confirmar{
+  transform: translateY(2vw);
+}
+
+button:hover{
+  transform: scale(1.1);
+}

@@ -1,0 +1,194 @@
+@import url("https://www.dafont.com/pt/minecraft.dafont");
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*==========================BARRA SUPERIOR===========================*/
+#menu{
+  min-height: 2.5vw;
+  background-color: black;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 99;
+}
+
+#k-info-logo{
+  width: 8vw;
+}
+
+#menu > a,
+#menu > div
+{
+  text-decoration: none;
+  font-family: minecraft;
+  font-size: 1.2vw;
+  color:white;
+}
+#perfil_icon{
+  max-height: 2.5vw;
+}
+
+#menu > a:hover{
+  transform: scale(1.1);
+}
+
+/*===================================================================*/
+
+/*====================GRUPOS K-INFO====================*/
+#fundo_grupos{
+    background-color: #820e06;
+    height: 190vw;
+  }
+
+#grupos_background{
+    background: url('imagens/grupos_kinfo.jpg');
+    background-size: cover; 
+    min-height: 56vw;
+    overflow: hidden;
+    z-index: 99;
+    position: relative;
+}
+
+.alinhamento_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 99vw;
+    height: 80vw;
+    z-index: 2;
+}
+
+#card{
+    width: 16vw;
+    margin: 5vw;
+    z-index: 2;
+    position: relative;
+  }
+
+  #card:hover{
+    transform: scale(1.1);
+  }
+
+/*==================== LANTERNAS DE FUNDO ====================*/
+
+.container-lanternas{
+  height: 190vw;
+  transform: translateY(-80vw);
+  overflow: hidden;
+  position: relative;
+  pointer-events: none;
+}
+
+.lanternas{
+  display: flex;
+  flex-wrap: wrap;
+  width:100vw ;
+  transform: translateX(-1vw);
+}
+
+.lanternas span{
+  animation: animar calc(1500s / var(--i)) linear infinite;
+}
+
+.lanternas span:nth-last-of-type(even){
+  opacity: 50% ;
+}
+
+@keyframes animar{
+  0%{
+    transform: translateY(190vw) scale(1);
+
+  }
+  100%{
+    transform: translateY(-250vw) scale(1);
+  }
+}
+
+#lanterna{
+  width: 5vw;
+}
+
+/*==========================RODAPÉ===========================*/
+
+#rodape{
+  background-color: black;  
+  overflow:hidden ;
+  height: 16.1vw;
+  transform: translateY(-80vw);
+}
+
+#div-frase{
+  color: white;
+  font-family: minecraft;
+  transform: translateX(36vw) translateY(2vw);
+  font-size: 1.5vw;
+  height: 1.2vw;
+  width: 33vw;
+}
+
+#frase{
+  text-shadow: 
+  0 0 1vw #fff, /* Brilho suave */
+  0 0 0.1vw #fff, 
+  0 0 0.1vw #ffffff;
+}
+
+#div-kiku{
+  transform: translateX(80vw) translateY(-3vw); 
+}
+
+#kiku-arvore{
+  width: 19vw;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+#div-twitch{
+  transform: translateX(48vw) translateY(12.6vw);
+  width: 1.8vw;
+}
+
+#twitch-icon{
+  width: 1.8vw;
+}
+
+#div-instagram{
+  transform: translateX(44vw) translateY(10.6vw);
+  width: 1.5vw;
+}
+
+#instagram-icon{
+  width: 1.5vw;
+}
+
+#div-referencias{
+  width: 5vw;
+  transform: translateY(-12vw);
+}
+
+#referencias{
+  font-family: minecraft;
+  color: white;
+  font-size: 0.8vw;
+}
+
+#referencias-kpopping{
+  color: white;
+}
+
+#referencias-kpopping:hover{
+scale: 1.1;
+}
+
+#referencias-spotify{
+  color: white;
+}
+
+

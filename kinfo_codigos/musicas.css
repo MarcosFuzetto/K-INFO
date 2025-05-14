@@ -1,0 +1,1156 @@
+@import url("https://www.dafont.com/pt/minecraft.dafont");
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*==========================BARRA SUPERIOR===========================*/
+#menu{
+    min-height: 2.5vw;
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 99;
+  }
+  
+  #k-info-logo{
+    width: 8vw;
+  }
+  
+  #menu > a,
+  #menu > div
+  {
+    text-decoration: none;
+    font-family: minecraft;
+    font-size: 1.2vw;
+    color:white;
+  }
+  #perfil_icon{
+    max-height: 2.5vw;
+  }
+  
+  #menu > a:hover{
+    transform: scale(1.1);
+  }
+/*===================================================================*/
+
+/*============================MÚSICAS K-INFO=========================*/
+#musicas_background{
+    background: url('imagens/musicas_kinfo.jpg');
+    background-size: cover; 
+    min-height: 56vw;
+}
+
+/*============================MOLDE UNIVERSAL DO CARROSEL=========================*/
+#musicas-fundo-carrossel{
+    background: url('imagens/musicas_categoria.jpg');
+    background-size: cover;
+    min-height: 27.65vw;    
+    position: relative;
+    overflow: hidden;
+}
+
+#botao_imagem{
+    height: 2vw;
+}
+
+#botao_imagem:hover{
+    transform: scale(1.1);
+}
+
+.card-title-musicas{ 
+    margin: 0;
+    font-family: minecraft;
+    font-size: 1.1vw;
+    color: white;   
+    text-align: center;
+    font-weight: 100;
+    transform: translateY(2vw) translateX(0.3vw);
+    width: 10vw;
+}
+
+a{
+    text-decoration: none;
+    border: 0;
+}
+
+.card-body-musicas{
+    background: url('imagens/card_fundo.jpg');
+    width: 10.5vw;
+    height: 16vw;
+    margin: 0;    
+    transform: translateY(1vw); 
+}
+
+.card-body-musicas:hover{
+    transform: scale(1.01);
+    position: relative;
+}
+
+#card_musicas{
+    display: flex;
+    transform: translateY(1vw) translateX(1vw);
+    height: 8.5vw;
+}
+/*===================================================================*/
+
+/*============================BLACKPINK=========================*/
+#div-logo-blackpink{
+    transform: translateX(46.6vw)  translateY(2.9vw) ;
+    margin: 0;
+}
+
+#blackpink-logo{
+   width: 6Svw;
+   margin-top: 0;
+}
+
+.carrosel-blackpink{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-2vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-blackpink{
+    display: flex;
+    justify-content: space-between;
+    width: 285.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-blackpink{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-blackpink{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+
+/*===================================================================*/
+
+/*============================AESPA=========================*/
+
+#div-logo-aespa{
+    transform: translateX(46.6vw)  translateY(2.9vw) ;
+    margin: 0;
+}
+
+#aespa-logo{
+   width: 6Svw;
+   margin-top: 0;
+}
+
+.carrosel-aespa{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-3vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-aespa{
+    display: flex;
+    justify-content: space-between;
+    width: 285.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-aespa{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-aespa{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+/*===================================================================*/
+
+/*============================STRAY KIDS=========================*/
+
+#div-logo-stray-kids{
+    transform: translateX(46.6vw)  translateY(1.9vw) ;
+    margin: 0;
+}
+
+#stray-kids-logo{
+   width: 6vw;
+   margin-top: 0;
+}
+
+.carrosel-stray-kids{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-4.5vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-stray-kids{
+    display: flex;
+    justify-content: space-between;
+    width: 285.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-stray-kids{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-stray-kids{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+/*===================================================================*/
+
+/*============================LE SSERAFIM=========================*/
+#div-logo-lesserafim{
+    transform: translateX(46.7vw)  translateY(2.6vw) ;
+    margin: 0;
+}
+
+#lesserafim-logo{
+   width: 6vw;
+   margin-top: 0;
+}
+
+.carrosel-lesserafim{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-2.6vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-lesserafim{
+    display: flex;
+    justify-content: space-between;
+    width: 285.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-lesserafim{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-lesserafim{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+/*===================================================================*/
+
+/*============================KISS OF LIFE=========================*/
+
+#div-logo-kiss-of-life{
+    transform: translateX(45.3vw)  translateY(1.9vw) ;
+    margin: 0;
+}
+
+#kiss-of-life-logo{
+   width: 8.5vw;
+   margin-top: 0;
+}
+
+.carrosel-kiss-of-life{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-3.8vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-kiss-of-life{
+    display: flex;
+    justify-content: space-between;
+    width: 224.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-kiss-of-life{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-kiss-of-life{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+/*===================================================================*/
+
+/*============================SEVENTEEN=========================*/
+#div-logo-seventeen{
+    transform: translateX(46.6vw)  translateY(1.9vw) ;
+    margin: 0;
+}
+
+#seventeen-logo{
+   width: 6.2vw;
+   margin-top: 0;
+}
+
+.carrosel-seventeen{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-5vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-seventeen{
+    display: flex;
+    justify-content: space-between;
+    width: 285.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-seventeen{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-seventeen{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+
+/*===================================================================*/
+
+/*============================BTS=========================*/
+#div-logo-bts{
+    transform: translateX(47vw)  translateY(1.5vw) ;
+    margin: 0;
+}
+
+#bts-logo{
+   width: 5.2vw;
+   margin-top: 0;
+}
+
+.carrosel-bts{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-6vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-bts{
+    display: flex;
+    justify-content: space-between;
+    width: 285.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-bts{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-bts{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+/*===================================================================*/
+
+/*============================NEW JEANS=========================*/
+#div-logo-newjeans{
+    transform: translateX(47vw)  translateY(1.3vw) ;
+    margin: 0;
+}
+
+#newjeans-logo{
+   width: 5.2vw;
+   margin-top: 0;
+}
+
+.carrosel-newjeans{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-6vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-newjeans{
+    display: flex;
+    justify-content: space-between;
+    width: 285.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-newjeans{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-newjeans{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+/*===================================================================*/
+
+/*============================ENHYPEN=========================*/
+#div-logo-enhypen{
+    transform: translateX(47vw)  translateY(2.7vw) ;
+    margin: 0;
+}
+
+#enhypen-logo{
+   width: 5.5vw;
+   margin-top: 0;
+}
+
+.carrosel-enhypen{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-3.1vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-enhypen{
+    display: flex;
+    justify-content: space-between;
+    width: 285.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-enhypen{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-enhypen{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+/*===================================================================*/
+
+/*============================IVE=========================*/
+#div-logo-ive{
+    transform: translateX(48.2vw)  translateY(2.1vw) ;
+    margin: 0;
+}
+
+#ive-logo{
+   width: 3vw;
+   margin-top: 0;
+}
+
+.carrosel-ive{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-4.6vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-ive{
+    display: flex;
+    justify-content: space-between;
+    width: 285.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-ive{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-ive{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+/*===================================================================*/
+
+/*============================TWICE=========================*/
+#div-logo-twice{
+    transform: translateX(47.8vw)  translateY(2.3vw) ;
+    margin: 0;
+}
+
+#twice-logo{
+   width: 2.9vw;
+   margin-top: 0;
+}
+
+.carrosel-twice{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-4.1vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-twice{
+    display: flex;
+    justify-content: space-between;
+    width: 285.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-twice{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-twice{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+/*===================================================================*/
+
+/*============================ITZY=========================*/
+#div-logo-itzy{
+    transform: translateX(47.3vw)  translateY(2.6vw) ;
+    margin: 0;
+}
+
+#itzy-logo{
+   width: 4.5vw;
+   margin-top: 0;
+}
+
+.carrosel-itzy{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-3.7vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-itzy{
+    display: flex;
+    justify-content: space-between;
+    width: 285.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-itzy{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-itzy{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+/*===================================================================*/
+
+/*============================EVERGLOW=========================*/
+#div-logo-everglow{
+    transform: translateX(46.2vw)  translateY(2.1vw) ;
+    margin: 0;
+}
+
+#everglow-logo{
+   width: 7vw;
+   margin-top: 0;
+}
+
+.carrosel-everglow{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-3.5vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-everglow{
+    display: flex;
+    justify-content: space-between;
+    width: 285.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-everglow{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-everglow{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+/*===================================================================*/
+
+/*============================ATEEZ=========================*/
+#div-logo-ateez{
+    transform: translateX(46.7vw)  translateY(2.9vw) ;
+    margin: 0;
+}
+
+#ateez-logo{
+   width: 5.5vw;
+   margin-top: 0;
+}
+
+.carrosel-ateez{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-2.5vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-ateez{
+    display: flex;
+    justify-content: space-between;
+    width: 285.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-ateez{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-ateez{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+/*===================================================================*/
+
+/*============================BABYMONSTER=========================*/
+#div-logo-babymonster{
+    transform: translateX(46.2vw)  translateY(3.1vw) ;
+    margin: 0;
+}
+
+#babymonster-logo{
+   width: 7vw;
+   margin-top: 0;
+}
+
+.carrosel-babymonster{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-1.8vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-babymonster{
+    display: flex;
+    justify-content: space-between;
+    width: 148vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-babymonster{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-babymonster{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+/*===================================================================*/
+
+/*============================TXT=========================*/
+#div-logo-txt{
+    transform: translateX(46.8vw)  translateY(2vw) ;
+    margin: 0;
+}
+
+#txt-logo{
+   width: 5.5vw;
+   margin-top: 0;
+}
+
+.carrosel-txt{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-4.2vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-txt{
+    display: flex;
+    justify-content: space-between;
+    width: 285.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-txt{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-txt{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+/*===================================================================*/
+
+
+/*============================RED VELVET=========================*/
+#div-logo-red-velvet{
+    transform: translateX(47.9vw)  translateY(2.6vw) ;
+    margin: 0;
+}
+
+#red-velvet-logo{
+   width: 4vw;
+   margin-top: 0;
+}
+
+.carrosel-red-velvet{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-3.6vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-red-velvet{
+    display: flex;
+    justify-content: space-between;
+    width: 285.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-red-velvet{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-red-velvet{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+/*===================================================================*/
+
+/*============================(G)I-DLE========================*/
+#div-logo-gidle{
+    transform: translateX(47.5vw)  translateY(1.7vw) ;
+    margin: 0;
+}
+
+#gidle-logo{
+   width: 4.2vw;
+   margin-top: 0;
+}
+
+.carrosel-gidle{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 88vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-4.2vw);
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.div-movimentacao-gidle{
+    display: flex;
+    justify-content: space-between;
+    width: 285.5vw;
+    transform: translateX(0.1vw);
+}
+
+#antes-btn-gidle{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-gidle{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+
+/*==========================RODAPÉ===========================*/
+
+#rodape{
+    background-color: black;  
+    overflow:hidden ;
+    height: 16.1vw;
+}
+
+#div-frase{
+    color: white;
+    font-family: minecraft;
+    transform: translateX(36vw) translateY(2vw);
+    font-size: 1.5vw;
+    height: 1.2vw;
+    width: 33vw;
+}
+
+#frase{
+    text-shadow: 
+    0 0 1vw #fff, /* Brilho suave */
+    0 0 0.1vw #fff, 
+    0 0 0.1vw #ffffff;
+}
+
+#div-kiku{
+    transform: translateX(80vw) translateY(-3vw); 
+}
+
+#kiku-arvore{
+    width: 19vw;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+#div-twitch{
+    transform: translateX(48vw) translateY(12.6vw);
+    width: 1.8vw;
+}
+
+#twitch-icon{
+    width: 1.8vw;
+}
+
+#div-instagram{
+    transform: translateX(44vw) translateY(10.6vw);
+    width: 1.5vw;
+}
+
+#instagram-icon{
+    width: 1.5vw;
+}
+
+#div-referencias{
+    width: 5vw;
+    transform: translateY(-12vw);
+}
+
+#referencias{
+    font-family: minecraft;
+    color: white;
+    font-size: 0.8vw;
+}
+
+#referencias-kpopping{
+    color: white;
+}
+
+#referencias-kpopping:hover{
+scale: 1.1;
+}
+
+#referencias-spotify{
+    color: white;
+}
+
+
+
+

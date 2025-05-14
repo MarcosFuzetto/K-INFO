@@ -1,0 +1,225 @@
+@import url("https://www.dafont.com/pt/minecraft.dafont");
+@import url("https://www.dafont.com/pt/gang-of-three.font");
+
+
+
+body{
+    margin: 0;
+    padding: 0;   
+}
+
+/*==========================BARRA SUPERIOR===========================*/
+
+#menu{
+  min-height: 2.5vw;
+  background-color: black;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 99;
+}
+
+#k-info-logo{
+  width: 8vw;
+}
+
+#menu > a,
+#menu > div
+{
+  text-decoration: none;
+  font-family: minecraft;
+  font-size: 1.2vw;
+  color:white;
+}
+
+#perfil_icon{
+  max-height: 2.5vw;
+}
+
+#menu > a:hover{
+  transform: scale(1.1);
+}
+
+#k-info-logo:hover{
+  transform: scale(1.1);
+}
+/*==========================SOBRE===========================*/
+
+#sobre_kinfo{
+    background: url('imagens/sobre-kinfo.jpg');
+    background-size: cover;
+    height: 103vw;
+    position: relative;
+    overflow: hidden;
+}
+
+#div-logo{
+  transform: translateY(4vw) translateX(30.5vw);
+  width: 36vw;
+}
+
+#logo-title{
+    color: white;
+    font-size: 12vw;
+    font-family: gang of three;
+    pointer-events: none;
+      text-shadow: 
+    0 0 1vw #fff, /* Brilho suave */
+    0 0 0.2vw #fff, 
+    0 0 0.2vw #ffffff;
+    animation: brilho 1.5s infinite alternate;
+}
+
+@keyframes brilho {
+  0% {
+    text-shadow: 
+      0 0 1vw #ffffff, 
+      0 0 0.2vw #ffffff, 
+      0 0 0.2vw #ffffff, 
+      0 0 2vw #ffffff;
+  }
+  50% {
+    text-shadow: 
+      0 0 1vw #ffffff, 
+      0 0 0.2vw #ffffff, 
+      0 0 0.2vw #ffffff, 
+      0 0 4vw #ffffff;
+  }
+  100% {
+    text-shadow: 
+      0 0 1vw #ffffff, 
+      0 0 0.2vw #ffffff, 
+      0 0 0.2vw #ffffff, 
+      0 0 2vw #ffffff;
+  }
+}
+
+/*#box{
+    border: solid 0.1vw rgb(255, 255, 255);
+    padding: 1vw;
+    border-radius: 2vw;
+    height: 20vw;
+    width: 50vw;
+    transform: translateY(10vw);
+}*/
+
+#div-descricao{
+    width: 99vw;
+    transform: translateY(15vw);
+    text-align: center;
+}
+
+#descricao{
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    position: relative;
+    transform: translateY(-10vw);
+    text-shadow: 
+    0 0 1vw #fff, /* Brilho suave */
+    0 0 0.1vw #fff, 
+    0 0 0.1vw #ffffff;
+}
+
+#div-descricao-final{
+    width: 47vw;
+    transform: translateY(65vw) translateX(26vw);
+}
+
+#descricao-final{
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-shadow: 
+    0 0 1vw #fff, /* Brilho suave */
+    0 0 0.1vw #fff, 
+    0 0 0.1vw #ffffff;
+}
+
+#assinatura{
+    height: 4vw;
+    transform: translateY(62vw);
+}
+
+
+/*==========================RODAPÉ===========================*/
+
+#rodape{
+  background-color: black;  
+  overflow:hidden ;
+  height: 16.1vw;
+}
+
+#div-frase{
+  color: white;
+  font-family: minecraft;
+  transform: translateX(36vw) translateY(2vw);
+  font-size: 1.5vw;
+  height: 1.2vw;
+  width: 33vw;
+}
+
+#frase{
+  text-shadow: 
+  0 0 1vw #fff, /* Brilho suave */
+  0 0 0.1vw #fff, 
+  0 0 0.1vw #ffffff;
+}
+
+#div-kiku{
+  transform: translateX(80vw) translateY(-3vw); 
+}
+
+#kiku-arvore{
+  width: 19vw;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+#div-twitch{
+  transform: translateX(48vw) translateY(12.6vw);
+  width: 1.8vw;
+}
+
+#twitch-icon{
+  width: 1.8vw;
+}
+
+#div-instagram{
+  transform: translateX(44vw) translateY(10.6vw);
+  width: 1.5vw;
+}
+
+#instagram-icon{
+  width: 1.5vw;
+}
+
+#div-referencias{
+  width: 5vw;
+  transform: translateY(-12vw);
+}
+
+#referencias{
+  font-family: minecraft;
+  color: white;
+  font-size: 0.8vw;
+}
+
+#referencias-kpopping{
+  color: white;
+}
+
+#referencias-kpopping:hover{
+scale: 1.1;
+}
+
+#referencias-spotify{
+  color: white;
+}
+
+
+
+
+  

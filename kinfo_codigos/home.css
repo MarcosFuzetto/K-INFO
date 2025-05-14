@@ -1,0 +1,346 @@
+@import url("https://www.dafont.com/pt/minecraft.dafont");
+
+body{
+    margin: 0;
+    padding: 0;
+    cursor: url("imagens/cursor-cerejeira.cur"), auto;
+}
+
+/*==========================BARRA SUPERIOR===========================*/
+#menu{
+    min-height: 2.5vw;
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 99;
+  }
+  
+  #k-info-logo{
+    width: 8vw;
+  }
+  
+  #menu > a,
+  #menu > div
+  {
+    text-decoration: none;
+    font-family: minecraft;
+    font-size: 1.2vw;
+    color:white;
+  }
+
+  #perfil_icon{
+    max-height: 2.5vw;
+  }
+
+  #menu > a:hover{
+    transform: scale(1.1);
+  }
+
+  #k-info-logo:hover{
+    transform: scale(1.1);
+  }
+
+/*==========================HOME===========================*/
+#home_kinfo{
+    background: url('imagens/home_kinfo.png');
+    background-size: cover;
+    min-height: 56vw;
+}
+
+/*==========================CONFIGS GLOBAIS===========================*/
+#botao-imagem{
+    height: 2vw;
+}
+
+#botao-imagem:hover{
+    transform: scale(1.1);
+}
+
+.card-title-home{ 
+    margin: 0;
+    font-family: minecraft;
+    font-size: 1.1vw;
+    color: white;   
+    text-align: center;
+    font-weight: 100;
+    transform: translateY(2vw) translateX(0.3vw);
+    width: 10vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card-body-home{
+    background: url('imagens/card_fundo.jpg');
+    width: 10.5vw;
+    height: 16vw;
+    margin: 0;   
+    transform: translateY(1vw); 
+}
+
+.card-body-home:hover{
+    transform: scale(1.01);
+    position: relative;
+}
+
+/*==========================PREVIA MUSICAS===========================*/
+#previa_musicas{
+    background: url('imagens/previa_musicas.jpg');
+    background-size: cover;
+    height: 27.65vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.carrosel-musicas{
+    margin: 7vw;
+    overflow: hidden;
+    position: relative;
+    width: 87vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-0.5vw);
+    justify-content: space-evenly;
+}
+
+.div-movimentacao-musicas{
+    display: flex;
+    justify-content: space-between;
+    width: 702.5vw;
+    transform: translateX(0.7vw);
+}
+
+#antes-btn-musicas{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-musicas{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+
+#card_musicas_home{
+    display: flex;
+    transform: translateY(1vw) translateX(1vw);
+    height: 8.5vw;
+}
+
+/*==========================PREVIA GRUPOS===========================*/
+#previa_grupos{
+    background: url('imagens/previa_grupos.jpg');
+    background-size: cover;
+    height: 27.65vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.carrosel-grupos{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 87vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(0.2vw);
+    justify-content: space-evenly;
+}
+
+.div-movimentacao-grupos{
+    display: flex;
+    justify-content: space-between;
+    width: 325vw;
+    transform: translateX(0.7vw);
+}
+
+#antes-btn-grupos{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-grupos{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+
+#polaroid-grupos{
+    display: flex;
+    width: 12vw;
+    transform: translateY(0.5vw);
+}
+
+#polaroid-grupos:hover{
+    transform: scale(1);
+}
+
+/*==========================PREVIA ALBUNS===========================*/
+#previa_albuns{
+    background: url('imagens/previa_albuns.jpg');
+    background-size: cover;
+    height: 27.65vw;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.carrosel-albuns{
+    margin: 7vw;
+    overflow: hidden;
+    position: absolute;
+    width: 87vw ;
+    height: 17vw;
+    transform: translateX(-1vw) translateY(-0.5vw);
+    justify-content: space-evenly;
+}
+
+.div-movimentacao-albuns{
+    display: flex;
+    justify-content: space-between;
+    width: 702.5vw;
+    transform: translateX(0.7vw);
+}
+
+#antes-btn-albuns{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    left: 0;
+    margin-left: 2vw;
+}
+
+#prox-btn-albuns{
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border: none;
+    right: 0;
+    margin-right: 2vw;
+}
+
+#card-albuns{
+    display: flex;
+    transform: translateY(1vw) translateX(1vw);
+    height: 8.5vw;
+}
+
+.card-title-albuns{ 
+    margin: 0;
+    font-family: minecraft;
+    font-size: 1.1vw;
+    color: white;   
+    text-align: center;
+    font-weight: 100;
+    transform: translateY(2vw) translateX(0.3vw);
+    width: 10vw;
+}
+
+/*==========================RODAPÉ===========================*/
+
+#rodape{
+    background-color: black;  
+    overflow:hidden ;
+    height: 16.1vw;
+}
+
+#div-frase{
+    color: white;
+    font-family: minecraft;
+    transform: translateX(36vw) translateY(2vw);
+    font-size: 1.5vw;
+    height: 1.2vw;
+    width: 33vw;
+}
+
+#frase{
+    text-shadow: 
+    0 0 1vw #fff, /* Brilho suave */
+    0 0 0.1vw #fff, 
+    0 0 0.1vw #ffffff;
+}
+
+#div-kiku{
+    transform: translateX(80vw) translateY(-3vw); 
+}
+
+#kiku-arvore{
+    width: 19vw;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+#div-twitch{
+    transform: translateX(48vw) translateY(12.6vw);
+    width: 1.8vw;
+}
+
+#twitch-icon{
+    width: 1.8vw;
+}
+
+#div-instagram{
+    transform: translateX(44vw) translateY(10.6vw);
+    width: 1.5vw;
+}
+
+#instagram-icon{
+    width: 1.5vw;
+}
+
+#div-referencias{
+    width: 5vw;
+    transform: translateY(-12vw);
+}
+
+#referencias{
+    font-family: minecraft;
+    color: white;
+    font-size: 0.8vw;
+}
+
+#referencias-kpopping{
+    color: white;
+}
+
+#referencias-kpopping:hover{
+scale: 1.1;
+}
+
+#referencias-spotify{
+    color: white;
+}
+
+

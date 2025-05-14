@@ -1,0 +1,254 @@
+@import url("https://www.dafont.com/pt/minecraft.dafont");
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*==========================BARRA SUPERIOR===========================*/
+#menu{
+    min-height: 2.5vw;
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 99;
+  }
+  
+  #k-info-logo{
+    width: 8vw;
+  }
+  
+  #menu > a,
+  #menu > div
+  {
+    text-decoration: none;
+    font-family: minecraft;
+    font-size: 1.2vw;
+    color:white;
+  }
+  #perfil_icon{
+    max-height: 2.5vw;
+  }
+  
+  #menu > a:hover{
+    transform: scale(1.1);
+  }
+
+  #k-info-logo:hover{
+    transform: scale(1.1);
+  }
+
+/*===================================================================*/
+
+/*====================ENHYPEN====================*/
+#fundo{
+    background: url('imagens/enhypen/fundo-enhypen.jpg');
+    background-size: cover;
+    height: 56vw;
+}
+
+#fundo-membros{
+    background: url('imagens/membros-maior.jpg');
+    background-size: cover;
+    height: 55.8vw;
+}
+
+#membros-card-linha1{
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateY(4vw);
+    flex-wrap: wrap;
+}
+
+#membros-card-linha2{
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateY(9vw);
+    flex-wrap: wrap
+}
+
+#heeseung-card{
+    width: 16vw;
+}
+
+#jake-card{
+    width: 16vw;
+}
+
+#jungwon-card{
+    width: 16vw;
+}
+
+#jongseong-card{
+    width: 16vw;
+}
+
+#niki-card{
+    width: 16vw;
+}
+
+#sunghoon-card{
+    width: 16vw;
+}
+
+#sunoo-card{
+    width: 16vw;
+}
+
+#background{
+    background-color: white;
+    overflow: hidden;
+}
+
+#discografia{
+    font-family: minecraft;
+    font-size: 4vw;
+    text-align: center;
+    transform: translateY(-4vw);
+}
+
+#redes-sociais{
+    display: flex;
+    transform: translateY(-13vw) translateX(80vw);
+    width: 15vw;
+    justify-content: space-evenly;
+}
+
+#spotify{   
+    width: 1.2vw;
+}
+
+#facebook{
+    width: 1.2vw;
+}
+
+#instagram{
+    width: 1.1vw;
+}
+
+#youtube{
+    width: 1.5vw;
+}
+
+#tiktok{
+    width: 1vw;
+}
+
+.discografia-vinis{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    height: 257vw;
+    transform: translateY(-5vw);
+}
+
+#vinis{
+    height: 16vw;
+}
+
+#discografia-title{
+    font-family: minecraft;   
+    justify-content: left;
+    color: black;
+    font-size: 1.3vw;
+    transform: translateY(-1vw);
+    width: 15vw;
+    text-align: center;
+}
+
+#vinis-size{
+    width: 20vw;
+}
+
+#vinis:hover{
+    transform: scale(1.1);
+    border: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*==========================RODAPÉ===========================*/
+
+#rodape{
+    background-color: black;  
+    overflow:hidden ;
+    height: 16.1vw;
+}
+
+#div-frase{
+    color: white;
+    font-family: minecraft;
+    transform: translateX(36vw) translateY(2vw);
+    font-size: 1.5vw;
+    height: 1.2vw;
+    width: 33vw;
+}
+
+#frase{
+    text-shadow: 
+    0 0 1vw #fff, /* Brilho suave */
+    0 0 0.1vw #fff, 
+    0 0 0.1vw #ffffff;
+}
+
+#div-kiku{
+    transform: translateX(80vw) translateY(-3vw); 
+}
+
+#kiku-arvore{
+    width: 19vw;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+#div-twitch{
+    transform: translateX(48vw) translateY(12.6vw);
+    width: 1.8vw;
+}
+
+#twitch-icon{
+    width: 1.8vw;
+}
+
+#div-instagram{
+    transform: translateX(44vw) translateY(10.6vw);
+    width: 1.5vw;
+}
+
+#instagram-icon{
+    width: 1.5vw;
+}
+
+#div-referencias{
+    width: 5vw;
+    transform: translateY(-12vw);
+}
+
+#referencias{
+    font-family: minecraft;
+    color: white;
+    font-size: 0.8vw;
+}
+
+#referencias-kpopping{
+    color: white;
+}
+
+#referencias-kpopping:hover{
+scale: 1.1;
+}
+
+#referencias-spotify{
+    color: white;
+}
+
+
