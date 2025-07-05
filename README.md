@@ -14,6 +14,5 @@
 
 - Na barra de pesquisa do navegador digitar localhost/K-INFO/kinfo_codigos/login-cadastro 
 
-<img width="1850" height="958" alt="Image" src="https://github.com/user-attachments/assets/eccbaf34-0e19-40a3-bef7-5ae7bb87a3bd" />
 
 Obrigado por usar o K-INFO ❤
